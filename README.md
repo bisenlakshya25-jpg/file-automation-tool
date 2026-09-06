@@ -18,6 +18,7 @@ A modular Python-based file automation tool that scans a folder, classifies file
 
 🏗️ Project Structure
 
+```text
 file-automation-tool/
 │
 ├── main.py
@@ -27,9 +28,11 @@ file-automation-tool/
 ├── organizer.py
 ├── config.json
 └── README.md
+```
 
 🔄 How It Works
 
+```text
 User selects folder
         ↓
     scanner.py
@@ -53,6 +56,7 @@ User selects folder
    Files Organized
         ↓
      Summary
+```
 
 ⚙️ Configuration
 
@@ -60,6 +64,7 @@ File categories and extensions are stored in config.json.
 
 Example:
 
+```json
 {
     "Images": [".jpg", ".jpeg", ".png"],
     "Documents": [".pdf", ".docx", ".txt"],
@@ -68,7 +73,7 @@ Example:
     "Code": [".py", ".js", ".html"],
     "Archives": [".zip", ".rar"]
 }
-
+```
 New categories and extensions can be added without changing the classifier logic.
 
 🧩 Modules
